@@ -3,7 +3,7 @@
 # Summary:
 #  - Use autocert to list all domains we have SSL certs for
 #  - See if we can resolve each CN (common name)
-#  - If host resolution fails, the site may 
+#  - If host resolution fails, the site may have been decommissioned
 # By Daniel Hartnell <dhartnell@mozilla.com>
 
 # This parses the autocert verbose output and gathers CNs
